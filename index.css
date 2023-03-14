@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section.givehope {
+    min-height: 50rem;
+    width: 100%;
+    background-color: black;
+    background-image: linear-gradient(rgba(23, 32, 0, 0.5), rgba(2, 31, 0, 0.5)), url('images/people-2604837_960_720-e1509066378844.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+header {
+   width: 100%;
+   min-height: 8rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: transparent; 
+}
+header .logo a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-shadow: 4px 4px 6px #0a0e00;
+}
+header .logo a:hover{
+    text-shadow: 2px 2px 4px #cacbc3;
+}
+header ul li{
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-shadow: 4px 4px 6px #0a0e00;
+}
+header ul li a::after {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background-color: aliceblue;
+    left: 0;
+}
+.title h1 {
+    padding-left: 6rem;
+    padding-top: 9rem;
+    font-weight: 400;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.9rem;
+    text-shadow: 5px 6px #076a02;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #12140b;
+    font-style: oblique;
+    transition: 0.5s;
+}
+h1:hover{
+    text-shadow: 2px 2px 4px #cacbc3;
+    cursor: pointer;
+}
