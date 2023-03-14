@@ -132,6 +132,7 @@ h2 {
 .about_text {
     width: 40rem;
     min-height: 20rem;
+    padding-top: 1.5git rem;
 }
 .about_title {
     font-size: 2.9rem;
