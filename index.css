@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 section.givehope {
     min-height: 47rem;
@@ -88,4 +89,77 @@ a.watch_video:hover{
     color: rgb(236, 255, 218);
     font-weight: 450;
     font-size: 1.85rem;
+}
+.about {
+    width: 100%;
+    min-height: 30rem;
+    padding: 5rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.view {
+    width: 30rem;
+    min-height: 22rem;
+    background-color: rgb(255, 225, 0);
+    padding: 3.5rem 3rem;
+}
+h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.view_num {
+    font-size: 3.8rem;
+}
+.view_btn {
+    width: 12.5rem;
+    min-height: 2rem;
+    color: rgb(1, 8, 15);
+    background-color: #ffffff;
+    padding-left: 1.24rem;
+    padding-top: 0.2rem;
+    font-size: 1.05rem;
+    margin-top: 2.3rem;
+    transition: 0.5s;
+    box-shadow: 0 .1rem .7rem -.1rem grey;
+}
+.view_btn:hover {
+    background-color: #0a0e00;
+    color: #ffffff;
+    cursor: pointer;
+}
+.about_text {
+    width: 40rem;
+    min-height: 20rem;
+}
+.about_title {
+    font-size: 2.9rem;
+    font-family: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+.about_txt {
+    margin-top: 0.7rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+span {
+    font-size: 1.2rem;
+    line-height: .1rem;
+}
+.learn_btn {
+    display: block;
+    width: 10rem;
+    min-height: 2.3rem;
+    background-color: rgb(232, 205, 1);
+    padding-left: 1.95rem;
+    padding-top: .4rem;
+    margin-top: 3rem;
+    color: #ffffff;
+    box-shadow: 0 .4rem .7rem -.1rem grey;
+    transition: 0.5s;
+}
+.learn_btn:hover {
+    background-color: #0a0e00;
+    cursor: pointer;
 }
