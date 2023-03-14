@@ -71,3 +71,21 @@ h1:hover{
     text-shadow: 2px 2px 4px #cacbc3;
     cursor: pointer;
 }
+.watch_video_link{
+    margin: 3rem 17rem;
+    transition: 0.5s;
+}
+.watch_video_link:hover{
+transform: translateX(-0.12rem);
+}
+a.watch_video {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(89, 178, 0);
+    transition: 0.5s;
+}
+a.watch_video:hover{
+    color: rgb(236, 255, 218);
+    font-weight: 450;
+    font-size: 1.85rem;
+}
