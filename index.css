@@ -54,14 +54,14 @@ header ul li a::after {
     left: 0;
 }
 .title h1 {
-    padding-left: 6rem;
-    padding-top: 9rem;
+    padding-left: 9.5rem;
+    padding-top: 9.9rem;
     font-weight: 400;
 }
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 3.9rem;
+    font-size: 3.5rem;
     text-shadow: 5px 6px #076a02;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px 4px #12140b;
