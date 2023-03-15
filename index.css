@@ -132,7 +132,8 @@ h2 {
 .about_text {
     width: 40rem;
     min-height: 20rem;
-    padding-top: 1.5git rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
 }
 .about_title {
     font-size: 2.9rem;
@@ -140,9 +141,9 @@ h2 {
 }
 .about_txt {
     margin-top: 0.7rem;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     font-weight: 300;
-    font-size: 1.6rem;
+    font-size: 1.49rem;
 }
 span {
     font-size: 1.2rem;
@@ -164,3 +165,63 @@ span {
     background-color: #0a0e00;
     cursor: pointer;
 }
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    min-height: 20rem;
+    width: 100%;
+    border-top: .01rem solid rgb(222, 222, 222);
+}
+.item {
+    width: calc(100% / 3);
+}
+.item1 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(2, 188, 11);
+}
+h3 {
+    margin-left: .8rem;
+}
+h3 .donations {
+    margin-left: 1.5rem;
+}
+.fa-solid {
+    margin-top: 1.3rem;
+}
+.fa-lightbulb {
+    font-size: 2.55rem;
+}
+.fa-camera {
+    font-size: 2rem;
+}
+.item_txt {
+    margin-left: 2.8rem;
+}
+.fa-address-book {
+    font-size: 2.2rem;
+}
+.item_text {
+    line-height: 1.5rem;
+    font-weight: 100;
+    padding-right: 4.5rem;
+    margin-top: -.6rem;
+}
+.item_txt1 {
+    margin-left: 3rem;
+}
+.item_txt a {
+    display: block;
+    margin-top: 1.5rem;
+    color: rgb(2, 188, 11);
+
+}
+
