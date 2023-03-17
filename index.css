@@ -77,18 +77,26 @@ h1:hover{
     transition: 0.5s;
 }
 .watch_video_link:hover{
-transform: translateX(-0.12rem);
+    transform: translateX(-0.12rem);
 }
 a.watch_video {
     text-decoration: none;
     font-size: 1.8rem;
     color: rgb(89, 178, 0);
     transition: 0.5s;
+  
 }
 a.watch_video:hover{
     color: rgb(236, 255, 218);
     font-weight: 450;
     font-size: 1.85rem;
+}
+.container {
+    width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about {
     width: 100%;
@@ -97,10 +105,11 @@ a.watch_video:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 1rem;
 
 }
 .view {
-    width: 30rem;
+    width: 26rem;
     min-height: 22rem;
     background-color: rgb(15, 219, 1);
     padding: 3.5rem 3rem;
@@ -132,8 +141,9 @@ h2 {
 .about_text {
     width: 40rem;
     min-height: 20rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 .about_title {
     font-size: 2.9rem;
