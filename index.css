@@ -42,23 +42,34 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(231, 227, 227);
     font-weight: 500;
     text-shadow: 4px 4px 6px #0a0e00;
+    position: relative;
+}
+header ul li a:hover {
+    text-shadow: .1rem .1rem .2rem #ffffff;
+    transition: 0.5s;
 }
 header ul li a::after {
+    position:absolute;
     content: '';
-    width: 1rem;
-    height: 1rem;
-    background-color: aliceblue;
+    width: 100%;
+    height: .15rem;
+    bottom: -0.35rem;
+    background-color: transparent;
     left: 0;
+    transition: 0.5s;
+}
+header ul li a:hover:after {
+    background-color: aliceblue;
+    box-shadow: .05rem .08rem .1rem  #ffffff;
 }
 .title h1 {
     padding-left: 9.5rem;
     padding-top: 9.9rem;
     font-weight: 400;
 }
-
 h1 {
     color: rgb(255, 255, 255);
     font-size: 3.5rem;
